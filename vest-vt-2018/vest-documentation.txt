@@ -1,0 +1,56 @@
+Vermont
+-------
+Election results from the Vermont Secretary of State (https://vtelectionarchive.sec.state.vt.us/)
+Shapefile from intersecting the Census county subdivision and State House maps.
+
+Vermont has four unorganized towns whose residents cast votes in neighboring towns. These were distributed back based on voting age population in the 2017 American Community Survey as 2018 ACS estimates are not available at the township level. (Averill-Canaan, Buels Gore-Huntington, Ferdinand-Brighton, Glastenbury-Shaftsbury.)
+
+G18USSISAN - Bernie Sanders (Independent)
+G18USSRZUP - Lawrence Zupan (Independent)
+G18USSIPEA - Brad J. Peacock (Independent)
+G18USSIBES - Russell Beste (Independent)
+G18USSIGIL - Edward S. Gilbert Jr. (Independent)
+G18USSIADE - Folasade Adeluola (Independent)
+G18USSISVI - Jon Svitavsky (Independent)
+G18USSIBUS - Bruce Busa (Independent)
+G18USSOKAN - Reid Kane (Liberty Union Party)
+G18USSOWRI - Write-in Votes
+
+G18HALDWEL - Peter Welch (Democratic Party)
+G18HALRTYN - Anya Tynio (Republican Party)
+G18HALIERI - Cris Ericson (Independent)
+G18HALOPOT - Laura S. Potter (Liberty Union Party)
+G18HALOWRI - Write-in Votes
+
+G18GOVDHAL - Christine Hallquist (Democratic Party)
+G18GOVRSCO - Phil Scott (Republican Party)
+G18GOVIBAR - Trevor Barlow (Independent)
+G18GOVILAR - Charles Laramie (Independent)
+G18GOVIERI - Cris Ericson (Independent)
+G18GOVOMAR - Stephen Marx (Earth Rights Party)
+G18GOVOPEY - Emily "Em" Peyton (Liberty Union Party)
+G18GOVOWRI - Write-in Votes
+
+G18LTGPZUC - David Zuckerman (Democratic Party)
+G18LTGRTUR - Don Turner Jr. (Republican Party)
+G18LTGONGO - Murray Ngoima (Liberty Union Party)
+G18LTGOWRI - Write-in Votes
+
+G18ATGDDON - T.J. Donovan (Democratic Party)
+G18ATGRWIL - Janssen Willhoit (Republican Party)
+G18ATGOJAC - Rosemarie Jackowski (Liberty Union Party)
+G18ATGOWRI - Write-in Votes
+
+G18SOSDCON - Jim Condos (Democratic Party)
+G18SOSRPAI - H. Brooke Paige (Republican Party)
+G18SOSOHEB - Mary Alice Hebert (Liberty Union Party)
+G18SOSOWRI - Write-in Votes
+
+G18TREDPEA - Beth Pearce (Democratic Party)
+G18TRERMOR - Richard Morton (Republican Party)
+G18TREOWRI - Write-in Votes
+
+G18AUDDHOF - Doug Hoffer (Democratic Party)
+G18AUDRKEN - Richard Kenyon (Republican Party)
+G18AUDOBRO - Marina Brown (Liberty Union Party)
+G18AUDOWRI - Write-in Votes
