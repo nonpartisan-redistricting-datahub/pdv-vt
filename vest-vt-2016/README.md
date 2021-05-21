@@ -21,13 +21,13 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 - File: VT Precinct-Level Election Results
   - Online: [VT Secretary of State Election Archive](https://electionarchive.vermont.gov/elections/search/year_from:2016/year_to:2016/stage:General)
-  - AWS: `Election_Results` (available upon request)
+  - AWS: `Precinct_Level` (available upon request)
   - Accessed: 05/19/21
   - Note: For each needed election, click under Candidates -> See Details for Election -> Download this Election -> Precinct Results. 
 
 - File: VT Municipal-Level Election Results
   - Online: [VT Secretary of State Election Archive](https://electionarchive.vermont.gov/elections/view/82048/)
-  - AWS: `Diff_Explanation` (available upon request)
+  - AWS: `Municipal_Level` (available upon request)
   - Accessed: 05/19/21
   - Note: For each needed election, click under Candidates -> See Details for Election -> Download this Election -> Municipality Results. This file was downloaded to explain a slight difference in the election results.
 
@@ -43,19 +43,29 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
   - Accessed: 05/19/21
   - Note:
 
-- File: VT 2016 ACS Survey
-  - Online: [US Census](https://data.census.gov/cedsci/table?q=Buels%20gore&g=0600000US5000327962,5000363550,5000734600,5000902125,5000902162,5000908725,5000911800,5000925975&tid=ACSST5Y2016.S0101&hidePreview=true)
+- File: VT 2016 ACS Survey for Areas w/ Allocated Votes
+  - Online: [US Census](https://data.census.gov/cedsci/table?q=Buels%20gore&g=0600000US5000327962,5000363550,5000734600,5000902125,5000908725,5000911800,5000925975&tid=ACSST5Y2016.S0101&hidePreview=true)
+  - AWS: `Allocating_Votes` (available upon request)
+  - Accessed: 05/21/21
+  - Note: This table provides 2016 ACS population data for the areas where VEST allocated votes. 
+
+- File: VT 2016 ACS Survey for Areas w/ Zero Votes
+  - Online: [US Census](https://data.census.gov/cedsci/table?q=Buels%20gore&g=0600000US5000902162,5000939775,5000976337,5000976562,5002565762&tid=ACSST5Y2016.S0101&hidePreview=true)
   - AWS: `ACS` (available upon request)
-  - Accessed: 05/19/21
-  - Note: This table was constructed to include data for the following places: Averill town
-Avery's gore
-Canaan town
-Buels gore
-Huntington town
-Brighton town
-Ferdinand town
-Glastenbury town
-Shaftsbury town
+  - Accessed: 05/21/21
+  - Note: This table provides 2016 ACS population data for the areas with zero-votes.
+
+- File: VT 2019 ACS Survey for Somerset, VT
+  - Online: [US Census](https://data.census.gov/cedsci/table?q=Buels%20gore&g=0600000US5002565762&tid=ACSST5Y2019.S0101&hidePreview=true)
+  - AWS: `Somerset_2019` (available upon request)
+  - Accessed: 05/21/21
+  - Note: This table provides 2019 ACS population data for Somerset, VT. Somerset is not given any votes in the VEST file, and although VEST does not explain why, this data supports their decision.
+
+- File: Somerset Article
+  - Online: [Brattleboro Reformer](https://www.reformer.com/local-news/the-lone-voter-of-somerset/article_b06ff1fb-b678-55c4-98cc-0afb3e2480ca.html)
+  - AWS: `Somerset_Article` (available upon request)
+  - Accessed: 05/21/21
+  - Note: This article, from 2006, mentions that there was only one registered voter in Somerset at the time. Somerset is not given any votes in the VEST file, and although VEST does not explain why, this article supports their decision.
 
 
 ## File processing
