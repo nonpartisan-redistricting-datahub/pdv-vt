@@ -10,7 +10,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 RDH's partner data validation for VEST's 2020 VT file. VEST's raw file is available [here](https://dataverse.harvard.edu/file.xhtml?fileId=4863163&version=15.0).
 
-View the final report [here](https://redistrictingdatahub.org/dataset/vest-2020-vermont-precinct-and-election-results/).
+View the final report [here](https://redistrictingdatahub.org/dataset/vest-2020-vermont-precinct-boundaries-and-election-results-shapefile/).
 
 ## vest-vt-2018
 
