@@ -1,4 +1,4 @@
-# vest-vt-2018
+# vest-vt-2020
 
 Our final validation report for this dataset is available [here](https://redistrictingdatahub.org/dataset/vest-2020-vermont-precinct-boundaries-and-election-results/).
 
